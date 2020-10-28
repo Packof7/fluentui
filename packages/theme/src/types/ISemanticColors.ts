@@ -400,15 +400,7 @@ export interface ISemanticColors extends ISemanticTextColors {
    */
   menuItemBackgroundPressed: string;
 
-  /**
-   * The text color of a menu item.
-   */
-  menuItemText: string;
 
-  /**
-   * The text color of a hovered menu item.
-   */
-  menuItemTextHovered: string;
 
   //// Lists
 
@@ -417,10 +409,6 @@ export interface ISemanticColors extends ISemanticTextColors {
    */
   listBackground: string;
 
-  /**
-   * The default text color for list item titles and text in column fields.
-   */
-  listText: string;
 
   /**
    * The background color of a hovered list item.

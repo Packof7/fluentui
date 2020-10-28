@@ -180,6 +180,7 @@ export function getSemanticColors<TResult = Partial<ISemanticColors>>(
     result.buttonTextPressed = neutralDark;
     result.inputTextHovered = neutralDark;
     result.menuItemTextHovered = neutralDark;
+    result.menuItemTextPressed = neutralDark;
   }
   if (neutralSecondary) {
     result.bodySubtext = neutralSecondary;
