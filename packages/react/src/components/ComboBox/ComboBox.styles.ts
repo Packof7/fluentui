@@ -75,7 +75,7 @@ export const getOptionStyles = memoizeFunction(
     isPending?: boolean,
     isHidden?: boolean,
   ): Partial<IComboBoxOptionStyles> => {
-    const { palette, semanticColors } = theme;
+    const { semanticColors } = theme;
 
     const option = {
       textHoveredColor: semanticColors.menuItemTextHovered,

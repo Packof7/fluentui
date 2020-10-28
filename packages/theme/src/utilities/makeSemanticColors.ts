@@ -33,6 +33,7 @@ export function makeSemanticColors(
     warningBackground: !isInverted ? '#FFF4CE' : '#433519',
     severeWarningBackground: !isInverted ? '#FED9CC' : '#4F2A0F',
     successBackground: !isInverted ? '#DFF6DD' : '#393D1B',
+    menuItemTextPressed: !isInverted ? p.neutralDark : p.neutralLight,
 
     // deprecated
     warningHighlight: !isInverted ? '#ffb900' : '#fff100',
