@@ -48,7 +48,7 @@ export const getStyles = (props: IBreadcrumbStyleProps): IBreadcrumbStyles => {
   const itemBackgroundPressedColor = semanticColors.menuItemBackgroundPressed;
   const itemTextColor = palette.neutralSecondary;
   const itemTextFontWeight = FontWeights.regular;
-  const itemTextHoveredOrPressedColor = palette.neutralPrimary;
+  const itemTextHoveredOrPressedColor = semanticColors.menuItemBackgroundPressed;
   const itemLastChildTextColor = palette.neutralPrimary;
   const itemLastChildTextFontWeight = FontWeights.semibold;
   const chevronButtonColor = palette.neutralSecondary;

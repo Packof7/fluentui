@@ -79,7 +79,7 @@ export const getOptionStyles = memoizeFunction(
 
     const option = {
       textHoveredColor: semanticColors.menuItemTextHovered,
-      textSelectedColor: palette.neutralDark,
+      textSelectedColor: semanticColors.menuItemTextPressed,
       textDisabledColor: semanticColors.disabledText,
       backgroundHoveredColor: semanticColors.menuItemBackgroundHovered,
       backgroundPressedColor: semanticColors.menuItemBackgroundPressed,

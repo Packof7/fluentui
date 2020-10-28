@@ -136,6 +136,7 @@ export function getNeutralVariant(theme: IPartialTheme): ITheme {
     menuItemBackgroundPressed: p.neutralLight,
     menuItemText: p.neutralPrimary,
     menuItemTextHovered: !fullTheme.isInverted ? p.neutralDark : p.neutralPrimary,
+    menuItemTextPressed: !fullTheme.isInverted ? p.neutralDark : p.neutralPrimary,
   };
 
   return makeThemeFromPartials(fullTheme, partialPalette, partialSemantic);

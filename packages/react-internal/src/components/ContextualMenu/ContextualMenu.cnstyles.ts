@@ -37,6 +37,7 @@ export const getMenuItemStyles = memoizeFunction(
     const ContextualMenuItemBackgroundHoverColor = semanticColors.menuItemBackgroundHovered;
     const ContextualMenuItemTextHoverColor = semanticColors.menuItemTextHovered;
     const ContextualMenuItemBackgroundSelectedColor = semanticColors.menuItemBackgroundPressed;
+    const ContextualMenuItemTextSelectedColor = semanticColors.menuItemTextPressed;
     const ContextualMenuItemDividerColor = semanticColors.bodyDivider;
 
     const menuItemStyles: IMenuItemStyles = {
@@ -111,17 +112,17 @@ export const getMenuItemStyles = memoizeFunction(
         backgroundColor: ContextualMenuItemBackgroundSelectedColor,
         selectors: {
           '.ms-ContextualMenu-icon': {
-            color: palette.themeDark,
+            color: ContextualMenuItemTextSelectedColor,
           },
           '.ms-ContextualMenu-submenuIcon': {
-            color: palette.neutralPrimary,
+            color: ContextualMenuItemTextSelectedColor,
           },
         },
         ...getItemHighContrastStyles(),
       },
       rootExpanded: {
         backgroundColor: ContextualMenuItemBackgroundSelectedColor,
-        color: semanticColors.bodyTextChecked,
+        color: ContextualMenuItemTextSelectedColor,
         ...getItemHighContrastStyles(),
       },
       linkContent: {
