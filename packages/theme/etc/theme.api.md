@@ -464,7 +464,6 @@ export interface ISemanticColors extends ISemanticTextColors {
     listItemBackgroundChecked: string;
     listItemBackgroundCheckedHovered: string;
     listItemBackgroundHovered: string;
-    listText: string;
     menuBackground: string;
     menuDivider: string;
     menuHeader: string;
@@ -473,8 +472,6 @@ export interface ISemanticColors extends ISemanticTextColors {
     menuItemBackgroundChecked: string;
     menuItemBackgroundHovered: string;
     menuItemBackgroundPressed: string;
-    menuItemText: string;
-    menuItemTextHovered: string;
     messageLink: string;
     messageLinkHovered: string;
     primaryButtonBackground: string;
@@ -522,6 +519,9 @@ export interface ISemanticTextColors {
     listText: string;
     // @deprecated (undocumented)
     listTextColor: string;
+    menuItemText: string;
+    menuItemTextHovered: string;
+    menuItemTextPressed: string;
     messageText: string;
     primaryButtonText: string;
     primaryButtonTextDisabled: string;

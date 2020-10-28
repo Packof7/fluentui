@@ -153,6 +153,21 @@ export interface ISemanticTextColors {
    */
   listText: string;
 
+  /**
+   * The text color of a menu item.
+   */
+  menuItemText: string;
+
+  /**
+   * The text color of a hovered menu item.
+   */
+  menuItemTextHovered: string;
+
+  /**
+   * The text color of a hovered menu item.
+   */
+  menuItemTextPressed: string;
+
   //// DEPRECATED SLOTS
   // Do not use these slots, they are only maintained for backwards compatibility.
 
@@ -169,21 +184,4 @@ export interface ISemanticTextColors {
    * No longer used. Consider using messageText and/or successIcon instead.
    */
   successText: string;
-
-  /**
-   * The text color of a menu item.
-   */
-  menuItemText: string;
-
-  /**
-   * The text color of a hovered menu item.
-   */
-  menuItemTextHovered: string;
-
-   /**
-   * The text color of a hovered menu item.
-   */
-   menuItemTextPressed: string;
-
-
 }
